@@ -1,0 +1,62 @@
+{
+    "ads": {
+        "com.ironsource.sdk.controller.ControllerActivity": {
+            "00e3cc": {
+                "timeout": "0",
+                "xpath": "//android.view.View[child::android.widget.TextView[@android:id='@closeBtn']][ancestor::*[@android:text='SupersonicAds - AdUnit']][@android:enabled='true']"
+            },
+            "563c5c": {
+                "timeout": "0",
+                "xpath": "//android.widget.FrameLayout[@android:id='@android:id/content']//android.view.View[@android:id='@displayedFrame']//android.view.View[@android:id='@layaContainer']/android.widget.Image[@android:id='@layaCanvas']"
+            }
+        },
+        "com.adcolony.sdk.AdColonyInterstitialActivity": {
+            "d1d4ac": {
+                "timeout": "0",
+                "xpath": "//android.view.View[@android:id='@c4d-close-button-wrapper']"
+            },
+            "1236ff": {
+                "timeout": "5",
+                "xpath": "//android.view.View[@android:id='@c4d-close-button-wrapper']"
+            }
+        },
+        "com.my.target.common.MyTargetActivity": {
+            "ee3834": {
+                "timeout": "0",
+                "xpath": "//android.view.View[@android:id='@close_button']"
+            },
+            "262378": {
+                "timeout": "0",
+                "xpath": "//android.widget.FrameLayout[@android:id='@android:id/content']//android.view.ViewGroup[@android:id='@ad_view']/android.view.View[@android:id='@dismiss'][@android:contentDescription='dismiss']"
+            },
+            "3f398b": {
+                "timeout": "0",
+                "xpath": "//android.widget.FrameLayout[@android:id='@android:id/content']//android.widget.TextView[@android:id='@dismiss_button'][@android:text='Close']"
+            }
+        },
+        "com.vungle.warren.ui.VungleActivity": {
+            "fbdd7e": {
+                "timeout": "0",
+                "xpath": "//android.view.View[child::*[child::android.view.View[@android:id='@close-icon']]][ancestor::*[@android:text='Vungle Cloud UX Template']][@android:enabled='true']"
+            },
+            "234935": {
+                "timeout": "0",
+                "xpath": "//android.widget.FrameLayout[@android:id='@android:id/content']//android.view.View[@android:id='@vast-end-screen']/android.widget.TextView[2]"
+            }
+        },
+        "com.unity3d.services.ads.adunit.AdUnitActivity": {
+            "b75e39": {
+                "timeout": "0",
+                "xpath": "//android.widget.FrameLayout[@android:id='@android:id/content']//android.view.View[@android:id='@vast-end-screen']/android.widget.TextView[1]"
+            },
+            "ca21e5": {
+                "timeout": "5",
+                "xpath": "//android.view.View[parent::android.view.View[@android:id='@container-iframe-end-screen']][@android:clickable='true']"
+            },
+            "21cb57": {
+                "timeout": "5",
+                "xpath": "//android.widget.Button[@android:text='Close'][ancestor::*[@android:text='Unity Ads WebView']][@android:enabled='true']"
+            }
+        }
+    }
+}
